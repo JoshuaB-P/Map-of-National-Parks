@@ -105,7 +105,7 @@
       $.ajax({
         type: "GET",
         //YOUR TURN: Replace with csv export link
-        url: 'https://docs.google.com/spreadsheets/d/1eUzR06zckcvin1GApN3Ga1MUmDcuXf971wb41vLOFgE/edit?usp=sharing',
+        url: 'https://docs.google.com/spreadsheets/d/1eUzR06zckcvin1GApN3Ga1MUmDcuXf971wb41vLOFgE/gviz/tq?tqx=out:csv&sheet=National Parks map',
         dataType: "text",
         success: function (csvData) { makeGeoJSON(csvData); }
       });
